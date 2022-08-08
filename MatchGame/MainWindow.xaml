@@ -21,36 +21,37 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <TextBlock Text="?" HorizontalAlignment="Center"
-                   VerticalAlignment="Center" FontSize="36"/>
+                   VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="1" Text="?" HorizontalAlignment="Center"
-                   VerticalAlignment="Center" FontSize="36"/>
+                   VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="2" Text="?" HorizontalAlignment="Center"
-                   VerticalAlignment="Center" FontSize="36"/>
+                   VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="3" Text="?" HorizontalAlignment="Center"
-                   VerticalAlignment="Center" FontSize="36"/>
+                   VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Row="1" Text="?" HorizontalAlignment="Center"
-                   VerticalAlignment="Center" FontSize="36"/>
+                   VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="1" Grid.Row="1" Text="?" HorizontalAlignment="Center"
-                   VerticalAlignment="Center" FontSize="36"/>
+                   VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="2" Grid.Row="1" Text="?" HorizontalAlignment="Center"
-                   VerticalAlignment="Center" FontSize="36"/>
+                   VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="3" Grid.Row="1" Text="?" HorizontalAlignment="Center"
-                   VerticalAlignment="Center" FontSize="36"/>
+                   VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Row="2" Text="?" HorizontalAlignment="Center"
-                   VerticalAlignment="Center" FontSize="36"/>
+                   VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="1" Grid.Row="2" Text="?" HorizontalAlignment="Center"
-                   VerticalAlignment="Center" FontSize="36"/>
+                   VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="2" Grid.Row="2" Text="?" HorizontalAlignment="Center"
-                   VerticalAlignment="Center" FontSize="36"/>
+                   VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="3" Grid.Row="2" Text="?" HorizontalAlignment="Center"
-                   VerticalAlignment="Center" FontSize="36"/>
+                   VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Row="3" Text="?" HorizontalAlignment="Center"
-                   VerticalAlignment="Center" FontSize="36"/>
+                   VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="1" Grid.Row="3" Text="?" HorizontalAlignment="Center"
-                   VerticalAlignment="Center" FontSize="36"/>
+                   VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="2" Grid.Row="3" Text="?" HorizontalAlignment="Center"
-                   VerticalAlignment="Center" FontSize="36"/>
+                   VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column="3" Grid.Row="3" Text="?" HorizontalAlignment="Center"
-                   VerticalAlignment="Center" FontSize="36"/>
+                   VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock x:Name="timeTextBlock" HorizontalAlignment="Center" Grid.ColumnSpan="4" FontSize="36" Grid.Row="4" Text="Elapsed Time" TextWrapping="Wrap" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown_1"/>
     </Grid>
 </Window>
